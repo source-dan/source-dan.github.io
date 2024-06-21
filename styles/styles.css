@@ -1,0 +1,98 @@
+body {
+	background-color: #333;
+	font-family: monospace;
+}
+
+.terminal {
+	width: 800px;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #444;
+	border: 1px solid #666;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+	background-color: #555;
+	padding: 10px;
+	border-bottom: 1px solid #666;
+}
+
+.username, .hostname, .cwd {
+	color: #999;
+}
+
+.username {
+	font-weight: bold;
+}
+
+.hostname {
+	margin-left: 10px;
+}
+
+.cwd {
+	margin-left: 10px;
+	color: #666;
+}
+
+.output {
+	padding: 20px;
+}
+
+.output pre {
+	font-size: 14px;
+	color: #ccc;
+}
+
+.input {
+	padding: 10px;
+	background-color: #555;
+	border-top: 1px solid #666;
+}
+
+.input input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
+	border: none;
+	border-radius: 5px;
+}
+
+.input button[type="submit"] {
+	background-color: #666;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.input button[type="submit"]:hover {
+	background-color: #555;
+}
+
+.prompt {
+	color: #928374;
+}
+
+.command {
+	color: #8ec07c;
+	font-weight: bold;
+}
+
+.file {
+	color: #b8bb26;
+}
+
+.folder {
+	color: #83a598;
+}
+
+.output {
+	color: #ebdbb2;
+}
+
+.error {
+	color: #fb4934;
+}
