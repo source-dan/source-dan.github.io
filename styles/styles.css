@@ -96,3 +96,19 @@ body {
 .error {
 	color: #fb4934;
 }
+
+
+
+.top-right-link {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.top-right-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}

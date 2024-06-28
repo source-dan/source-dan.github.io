@@ -1,0 +1,77 @@
+body {
+    background-color: #333;
+    font-family: 'Lato', sans-serif;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #333, #444, #555);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 80px;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid #555;
+  }
+  
+  p {
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+    font-size: 18px;
+    white-space: pre-wrap;
+    text-indent: 20px;
+    line-height: 1.8;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .quotes {
+    background-color: black;
+    color: #ccc;
+    font-family: 'Lato', sans-serif;
+    padding: 30px;
+    border-left: 10px solid gray;
+    width: 40%;
+    margin: 40px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(to bottom, #333, #444, #555);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .quotes::before {
+    content: '"';
+    font-size: 24px;
+    color: #ccc;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transform: rotate(10deg);
+  }
+  
+  .quotes::after {
+    content: '"';
+    font-size: 24px;
+    color: #ccc;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    transform: rotate(-10deg);
+  }
+  
+  .quotes:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+  }
+  
+  .quotes:hover::before {
+    color: #fff;
+  }
+  
+  .quotes:hover::after {
+    color: #fff;
+  }
