@@ -1,0 +1,64 @@
+body {
+    font-family: monospace;
+    background-color: #333; /* Gruvbox background */
+  }
+  
+  .vim-container {
+    width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #665c54; /* Gruvbox border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vim-header {
+    background-color: #458588; /* Gruvbox green */
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #665c54; /* Gruvbox border */
+  }
+  
+  .vim-mode {
+    font-weight: bold;
+    margin-right: 20px;
+    color: #d65d0e; /* Gruvbox orange */
+  }
+  
+  .vim-status {
+    font-size: 12px;
+    color: #a9a1f4; /* Gruvbox purple */
+  }
+  
+  .vim-editor {
+    padding: 20px;
+  }
+  
+  #vim-editor-textarea {
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: monospace;
+    border: none;
+    resize: vertical;
+    overflow-y: auto;
+    background-color: #282828; /* Gruvbox background */
+    color: #ebdbb2; /* Gruvbox foreground */
+  }
+  
+  .vim-command-line {
+    background-color: #282828; /* Gruvbox background */
+    padding: 10px;
+    border-top: 1px solid #665c54; /* Gruvbox border */
+  }
+  
+  #vim-command-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-family: monospace;
+    border: none;
+    background-color: #282828; /* Gruvbox background */
+    color: #ebdbb2; /* Gruvbox foreground */
+  }

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vim Editor</title>
+    <link rel="stylesheet" href="vim.css">
+</head>
+<body>
+    <div class="vim-container">
+        <div class="vim-header">
+            <span class="vim-mode">INSERT</span>
+            <span id="vim-status">0 lines, 0 characters</span>
+        </div>
+        <div class="vim-editor">
+            <textarea id="vim-editor-textarea"></textarea>
+        </div>
+        <div class="vim-command-line">
+            <input id="vim-command-input" type="text" placeholder="Command">
+        </div>
+    </div>
+
+    <script src="vim.js"></script>
+</body>
+</html>
